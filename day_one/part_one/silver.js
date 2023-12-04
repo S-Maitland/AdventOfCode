@@ -1,5 +1,5 @@
 var fs = require("fs");
-var data = fs.readFileSync("data.txt", "utf8").toString();
+var data = fs.readFileSync("../data.txt", "utf8").toString();
 var lines = data.split("\n");
 var concatenateDigits = function (digits) {
     if (!digits)
